@@ -2,7 +2,8 @@ import streamlit as st
 import numpy as np
 import pickle
 
-file_path = r"C:/Users/jacok/OneDrive/Documents/Downloads/diabetes_random_forest_model.pkl"
+
+file_path = r"src/diabetes_random_forest_model.pkl"
 
 with open(file_path, "rb") as f:
     model = pickle.load(f)
