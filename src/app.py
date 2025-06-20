@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 
-file_path = r"kebaso-j/diabetes-prediction/master/src/app.py"
+file_path = r"src/diabetes_random_forest_model.pkl"
 
 with open(file_path, "rb") as f:
     model = pickle.load(f)
